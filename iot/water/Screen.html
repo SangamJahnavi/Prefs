@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tank Water-Level Supervision System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        .status,
+        .controls,
+        .alerts {
+            margin-bottom: 20px;
+        }
+
+        .water-level {
+            font-size: 24px;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #alert-message {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        .water-cup {
+            width: 100px;
+            height: 200px;
+        }
+
+        .cup-body {
+            fill: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Water Level Monitoring System</h1>
+        <svg class="water-cup" viewBox="0 0 100 200">
+            <!-- Cup Body -->
+            <path class="cup-body"
+                d="M10,190 L90,190 Q100,180 100,160 L100,40 Q100,20 90,10 L10,10 Q0,20 0,40 L0,160 Q0,180 10,190 Z" />
+            <!-- Water Level -->
+            <rect id="water" x="30" y="160" width="40" height="0" fill="#007bff" />
+        </svg>
+        <div class="status">
+            <h2>Current Water Level:</h2>
+            <div class="water-level" id="water-level">0%</div>
+        </div>
+        <div class="controls">
+            <h2>Control Panel</h2>
+            <button id="pump-on">Turn Pump On</button>
+            <button id="pump-off">Turn Pump Off</button>
+        </div>
+        <div class="alerts">
+            <h2>Alerts</h2>
+            <div id="alert-message"></div>
+        </div>
+    </div>
+    <script>
+        const ws = new WebSocket("ws://<esp32-ip-address>/ws");
+
+        ws.onopen = function () {
+            console.log("WebSocket connection established.");
+        };
+
+        ws.onmessage = function (event) {
+            // Update water level display based on received data
+            const waterLevel = event.data;
+            document.getElementById("water-level").innerText = waterLevel + "%";
+        };
+    </script>
+</body>
+
+</html>

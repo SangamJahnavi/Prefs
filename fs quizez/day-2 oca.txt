@@ -1,0 +1,372 @@
+Skip to main content
+tessellator
+Dashboard
+Completed Tasks
+Reports
+API Reference
+Study Material
+Feedback
+Log out (JAHNAVI SANGAM KMIT)
+Quiz-2
+Started on	Wednesday, 3 April 2024, 4:19 PM
+State	Finished
+Completed on	Wednesday, 3 April 2024, 4:39 PM
+Time taken	20 mins
+Marks	5.00/10.00
+Grade	50.00 out of 100.00
+Question 1
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Which is the first line to trigger a compiler error?
+double d1 = 5f; // p1
+double d2 = 5.0; //p2
+float f1 = 5f; // p3
+float f2 = 5.0; // p4
+Question 1Answer
+
+a.
+p4
+
+b.
+p1
+
+
+c.
+p2
+
+d.
+p3
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the output of the following (assume that this method in one class)?
+public static void main(String... args) { //Line-1
+String chair, table = "metal"; //Line-2
+chair = chair + table; //Line-3
+System.out.println(chair); //Line-4
+}
+Question 2Answer
+
+a.
+The code does not compile due to Line-3.
+
+b.
+metal
+
+c.
+The code does not compile due to Line-2.
+
+d.
+metalmetal
+
+e.
+The code does not compile due to Line-1.
+
+f.
+nullmetal
+Question 3
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+Which of the following does not compile?
+
+Question 3Answer
+
+a.
+int num =9_9_9_;
+
+b.
+All will compile.
+
+c.
+int num = _9_99;
+
+d.
+int num = 9_9_9;
+
+e.
+int num = 999;
+
+Question 4
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+What is the output of the following application?
+
+public class Airplane {
+
+static int start = 2;
+
+final int end;
+
+public Airplane(int x) {
+
+x = 4;
+
+end = x;
+
+}
+
+public void fly(int distance) {
+
+System.out.print(end-start+" ");
+
+System.out.print(distance);
+
+}
+
+public static void main(String... start) {
+
+new Airplane(10).fly(5);
+
+}
+
+}
+
+
+
+Question 4Answer
+
+a.
+The code does not compile.
+
+b.
+2 5
+
+
+c.
+6 5
+
+d.
+8 5
+Question 5
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which statements about calling the compilation command javac and the execution
+
+command java are true?
+
+I. java may use a period . to separate packages.
+
+II. javac takes a .java file and returns a .class file.
+
+III. java may use a slash (/) to separate packages.
+
+Question 5Answer
+
+a.
+I and II
+
+b.
+ I only
+
+c.
+II only
+
+d.
+I, II, and III
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+How many of the following methods compile?
+
+public String convert(int value) {
+
+return value.toString();
+
+}
+
+public String convert(Integer value) {
+
+return value.toString();
+
+}
+
+public String convert(Object value) {
+
+return value.toString();
+
+}
+
+Question 6Answer
+
+a.
+One
+
+
+b.
+Three
+
+c.
+None
+
+
+d.
+Two
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Given the following class definition, what is the maximum number of import
+
+statements that can be discarded and still have the code compile? For this question,
+
+assume that the Broccoli class is in the food.vegetables package, and the Apple class
+
+is the food.fruit package.
+
+package food;
+
+import food.vegetables.*;
+
+import food.fruit.*;
+
+import java.util.Date;
+
+public class Grocery {
+
+Apple a; Broccoli b; Date c;
+
+}
+
+
+
+Question 7Answer
+
+a.
+2
+
+b.
+3
+
+c.
+None of these
+
+d.
+0
+
+
+e.
+1
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the result of compiling and executing the following class?
+
+public class RollerSkates {
+
+static int wheels = 1;
+
+int tracks = 5;
+
+public static void main(String[] arguments) {
+
+RollerSkates s = new RollerSkates();
+
+int feet=4, tracks = 15;
+
+System.out.print(feet + tracks + s.wheels);
+
+}
+
+}
+
+
+
+Question 8Answer
+
+a.
+The code does not compile.
+
+b.
+10
+
+c.
+6
+
+d.
+5
+
+e.
+20
+Question 9
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Given that a Math class exists in both the java.lang and pocket.complex packages,
+
+what is the result of compiling the following class?
+
+1: package pocket;
+
+2: import pocket.complex.*;
+
+3: import java.util.*;
+
+4: public class Calculator {
+
+5: public static void main(String[] args) {
+
+6: System.out.print(Math.floor(5));
+
+7: }
+
+8: }
+
+
+
+Question 9Answer
+
+a.
+The code does not compile because of line 2.
+
+
+b.
+The code does not compile because of line 6.
+
+
+c.
+The code compiles without issue.
+
+d.
+The code does not compile because of line 3.
+
+Question 10
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Which of the following is not a valid variable names?
+
+Question 10Answer
+
+a.
+blue#
+
+b.
+_blue
+
+
+c.
+Blue1
+
+d.
+2blue
+
+e.
+blue$
+Finish review

@@ -1,0 +1,363 @@
+Skip to main content
+tessellator
+Dashboard
+Completed Tasks
+Reports
+API Reference
+Study Material
+Feedback
+Log out (JAHNAVI SANGAM KMIT)
+Quiz-4
+Started on	Monday, 8 April 2024, 4:39 PM
+State	Finished
+Completed on	Monday, 8 April 2024, 4:51 PM
+Time taken	11 mins 53 secs
+Marks	6.00/10.00
+Grade	60.00 out of 100.00
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the output of the following?
+
+Integer integer = new Integer(4);
+
+System.out.print(integer.byteValue());
+
+System.out.print("-");
+
+int i = new Integer(4);
+
+System.out.print(i.byteValue());
+
+
+
+Question 1Answer
+
+a.
+The code compiles but throws an exception at runtime.
+
+
+
+
+b.
+The code does not compile.
+
+
+c.
+4-0
+
+
+d.
+4-4
+
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which statement about the logical operators & and && is true?
+Question 2Answer
+
+a.
+The & operator always evaluates both operands, while the && operator may only evaluate the left operand.
+
+
+b.
+The & and && operators are interchangeable, always producing the same results at runtime.
+
+c.
+Both expressions evaluate to true if either operand is true.
+
+
+d.
+The & operator always evaluates both operands, while the && operator may only evaluate the right operand.
+
+Question 3
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Which of the following is not a possible result of executing the following application?
+
+public class ConditionallyLogical {
+
+public static void main(String... data) {
+
+if(data.length>=1
+
+&& (data[0].equals("sound") || data[0].equals ("logic"))
+
+&& data.length<2) {
+
+System.out.print(data[0]);
+
+}
+
+}
+
+}
+
+
+
+Question 3Answer
+
+a.
+Nothing is printed.
+
+
+b.
+sound is printed.
+
+
+c.
+The application throws an exception at runtime.
+
+
+d.
+logic is printed.
+
+Question 4
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following correctly assigns animal to both variables?
+
+I. String cat = "animal", dog = "animal";
+
+II. String cat = "animal"; dog = "animal";
+
+III. String cat, dog = "animal";
+
+IV. String cat, String dog = "animal";
+
+Question 4Answer
+
+a.
+II
+
+
+b.
+I
+
+c.
+IV
+
+
+d.
+III
+
+Question 5
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Fill in the blanks: Given two non-null String objects with reference names
+
+apples______________ and oranges, if apples oranges evaluates to true, then
+
+apples______________ oranges must also evaluate to true.
+
+
+
+Question 5Answer
+
+a.
+==, equals()
+
+b.
+equals(), ==
+
+
+c.
+equals(), =!
+
+d.
+!=, equals()
+
+Question 6
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+How many of the String objects are eligible for garbage collection right before the end
+
+of the main method?
+
+public static void main(String[] fruits) {
+
+String fruit1 = new String("apple");
+
+String fruit2 = new String("orange");
+
+String fruit3 = new String("pear");
+
+fruit3 = fruit1;
+
+fruit2 = fruit3;
+
+fruit1 = fruit2;
+
+}
+
+
+
+Question 6Answer
+
+a.
+Two
+
+b.
+Three
+
+c.
+None
+
+d.
+One
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Given the following code, fill in the blank to have the code print bounce.
+
+public class TennisBall {
+
+public TennisBall() {
+
+System.out.println("bounce");
+
+}
+
+public static void main(String[] slam) {
+
+_____________________
+
+}
+
+}
+
+Question 7Answer
+
+a.
+None of these
+
+b.
+TennisBall();
+
+c.
+TennisBall;
+
+
+d.
+new TennisBall();
+
+e.
+new TennisBall;
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Of the types double, int, long, and short, how many could fill in the blank to have this
+
+code output 0?
+
+static _______defaultValue;
+
+public static void main(String[] args) {
+
+System.out.println(defaultValue);
+
+}
+
+Question 8Answer
+
+a.
+4
+
+
+b.
+1
+
+
+c.
+2
+
+
+d.
+3
+
+Question 9
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+What is the output of the following application?
+
+package mode;
+
+public class Transportation {
+
+public static String travel(int distance) {
+
+return distance<1000 ? "train" : 10;
+
+}
+
+public static void main(String[] answer) {
+
+System.out.print(travel(500));
+
+}
+
+}
+
+Question 9Answer
+
+a.
+train
+
+b.
+10
+
+c.
+The code does not compile.
+
+d.
+The code compiles but throws an exception at runtime.
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the output of the following code snippet?
+
+int x = 10, y = 5;
+
+boolean w = true, z = false;
+
+x = w ? y++ : y--;
+
+w = !z;
+
+System.out.print((x+y)+" "+(w ? 5 : 10));
+
+Question 10Answer
+
+a.
+12 5
+
+b.
+The code does not compile.
+
+
+c.
+11 5
+
+d.
+10 10
+Finish review

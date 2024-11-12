@@ -1,0 +1,103 @@
+=== Program-1 ===
+case =1
+input =[[]][[][]][]
+output =[][][]
+
+case =2
+input =[[][]][[]][[][[]]]
+output =[][][][][[]]
+
+case =3
+input =[][][][][[]][[[][]]]
+output =[][[][]]
+
+case =4
+input =[[[]][][][][]][[[]][[[][]]]][[][]][[]][[][[]]]
+output =[[]][][][][][[]][[[][]]][][][][][[]]
+
+case =5
+input =[[[]][][][][]][[[]][[[][]]]][[][]][[]][[][[]]][[[[][[[][]]]]]][[[[][[]][]]][]]
+output =[[]][][][][][[]][[[][]]][][][][][[]][[[][[[][]]]]][[[][[]][]]][]
+
+case =6
+input =[[[]][][][][]][[[]][[[][]]]][[][]][[[[][]][[]][[][[]]]]][[][[]]][[[[][[[][]]]]]][[[[][[]][]]][]][[]][[][[]]][[[[][[[][]]]]]]
+output =[[]][][][][][[]][[[][]]][][][[[][]][[]][[][[]]]][][[]][[[][[[][]]]]][[[][[]][]]][][][][[]][[[][[[][]]]]]
+
+case =7
+input =[[[]][][][][]][[[]][[[][]]]][[][]][[]][[][[]]][[[[][[[][]]]]]][[[[][[]][]]][]][[]][[][[]]][[[[][[[][]]]]]]
+output =[[]][][][][][[]][[[][]]][][][][][[]][[[][[[][]]]]][[[][[]][]]][][][][[]][[[][[[][]]]]]
+
+case =8
+input =[[[]][][][][]][[[]][[[][]]]][[][]][[[[][]][[]][[][[]]]]][[[]][][][][]][[[]][[[][]]]][[][]][[]][[][[]]][[][[]]][[[[][[[][]]]]]][[[[][[]][]]][]][[]][[][[]]][[[[][[[][]]]]]]
+output =[[]][][][][][[]][[[][]]][][][[[][]][[]][[][[]]]][[]][][][][][[]][[[][]]][][][][][[]][][[]][[[][[[][]]]]][[[][[]][]]][][][][[]][[[][[[][]]]]]
+
+
+
+
+=== Program-2 ===
+case =1
+input =526RDAA789DDARR
+output =69
+
+case =2
+input =123RDA45DDARR
+output =32
+
+case =3
+input =67239RDDDRAA
+output =84
+
+case =4
+input =67RDAAR239RDDDRAA
+output =107
+
+case =5
+input =67RDAAR239RDDDRAA526RDAA789DDARR
+output =176
+
+case =6
+input =123RDA45DDARR67239RDDDRAA
+output =116
+
+case =7
+input =67RDAAR239RDDDRAA123RDA45DDARR
+output =139
+
+case =8
+input =526RDAA789DDARR67RDAAR239RDDDRAA123RDA45DDARR
+output =208
+
+
+
+=== Program-3 ===
+case =1
+input =se$$at cea$$t
+output =false
+     
+case =2
+input =pq$r pt$r
+output =true
+   
+case =3
+input =abcdefghij$$$$$$ acde$$$bcd
+output =true
+
+case =4
+input =p$$$$q xy$$q
+output =true
+
+case =5
+input =$$$xyzpqr x$$$$zypqr
+output =false
+   
+case =6
+input =abc$$$$pqr x$y$z$pqr
+output =true
+   
+case =7
+input =xyz$$b$cd xd
+output =false
+
+case =8
+input =xyz$$cd xcd
+output =true

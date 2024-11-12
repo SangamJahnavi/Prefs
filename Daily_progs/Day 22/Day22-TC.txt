@@ -1,0 +1,103 @@
+=== P1 TC ===
+case =1
+input =1 30
+output =[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22, 24]
+
+case =2
+input =50 250
+output =[55, 66, 77, 88, 99, 111, 112, 115, 122, 124, 126, 128, 132, 135, 144, 155, 162, 168, 175, 184, 212, 216, 222, 224, 244, 248]
+
+
+case =3
+input =300 500
+output =[312, 315, 324, 333, 336, 366, 384, 396, 412, 424, 432, 444, 448, 488]
+
+case =4
+input =500 1000
+output =[515, 555, 612, 624, 636, 648, 666, 672, 728, 735, 777, 784, 816, 824, 848, 864, 888, 936, 999]
+
+case =5
+input =1 250
+output =[1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22, 24, 33, 36, 44, 48, 55, 66, 77, 88, 99, 111, 112, 115, 122, 124, 126, 128, 132, 135, 144, 155, 162, 168, 175, 184, 212, 216, 222, 224, 244, 248]
+
+case =6
+input =150 1500
+output =[155, 162, 168, 175, 184, 212, 216, 222, 224, 244, 248, 264, 288, 312, 315, 324, 333, 336, 366, 384, 396, 412, 424, 432, 444, 448, 488, 515, 555, 612, 624, 636, 648, 666, 672, 728, 735, 777, 784, 816, 824, 848, 864, 888, 936, 999, 1111, 1112, 1113, 1115, 1116, 1122, 1124, 1128, 1131, 1144, 1155, 1164, 1176, 1184, 1197, 1212, 1222, 1224, 1236, 1244, 1248, 1266, 1288, 1296, 1311, 1326, 1332, 1335, 1344, 1362, 1368, 1395, 1412, 1416, 1424, 1444, 1448, 1464, 1488]
+
+case =7
+input =1001 3500
+output =[1111, 1112, 1113, 1115, 1116, 1122, 1124, 1128, 1131, 1144, 1155, 1164, 1176, 1184, 1197, 1212, 1222, 1224, 1236, 1244, 1248, 1266, 1288, 1296, 1311, 1326, 1332, 1335, 1344, 1362, 1368, 1395, 1412, 1416, 1424, 1444, 1448, 1464, 1488, 1515, 1555, 1575, 1626, 1632, 1644, 1662, 1692, 1715, 1722, 1764, 1771, 1824, 1848, 1888, 1926, 1935, 1944, 1962, 2112, 2122, 2124, 2128, 2136, 2144, 2166, 2184, 2196, 2212, 2222, 2224, 2226, 2232, 2244, 2248, 2262, 2288, 2316, 2322, 2328, 2364, 2412, 2424, 2436, 2444, 2448, 2488, 2616, 2622, 2664, 2688, 2744, 2772, 2824, 2832, 2848, 2888, 2916, 3111, 3126, 3132, 3135, 3144, 3162, 3168, 3171, 3195, 3216, 3222, 3264, 3276, 3288, 3312, 3315, 3324, 3333, 3336, 3339, 3366, 3384, 3393, 3432, 3444, 3492]
+
+case =8
+input =12345 13456
+output =[12366, 12384, 12412, 12424, 12432, 12444, 12448, 12488, 12492, 12612, 12624, 12636, 12648, 12666, 12712, 12726, 12768, 12816, 12824, 12848, 12864, 12888, 12924, 12996, 13113, 13116, 13122, 13128, 13131, 13155, 13164, 13212, 13224, 13236, 13248, 13266, 13272, 13311, 13326, 13332, 13335, 13344, 13362, 13368, 13377, 13392, 13416]
+
+
+
+=== P2 TC ===
+case =1
+input =85
+output =true
+
+case =2
+input =87
+output =false
+
+case =3
+input =6187847
+output =false
+
+case =4
+input =7948979
+output =false
+
+case =5
+input =178956970
+output =true
+
+case =6
+input =89478485
+output =true
+
+case =7
+input =113
+output =false
+
+case =8
+input =12
+output =false
+
+
+
+=== P3 TC ===
+case =1
+input =2
+output =[a, b, c]
+
+case =2
+input =24
+output =[ag, ah, ai, bg, bh, bi, cg, ch, ci]
+
+case =3
+input =269
+output =[amw, amx, amy, amz, anw, anx, any, anz, aow, aox, aoy, aoz, bmw, bmx, bmy, bmz, bnw, bnx, bny, bnz, bow, box, boy, boz, cmw, cmx, cmy, cmz, cnw, cnx, cny, cnz, cow, cox, coy, coz]
+
+case =4
+input =79
+output =[pw, px, py, pz, qw, qx, qy, qz, rw, rx, ry, rz, sw, sx, sy, sz]
+
+case =5
+input =824
+output =[tag, tah, tai, tbg, tbh, tbi, tcg, tch, tci, uag, uah, uai, ubg, ubh, ubi, ucg, uch, uci, vag, vah, vai, vbg, vbh, vbi, vcg, vch, vci]
+
+case =6
+input =297
+output =[awp, awq, awr, aws, axp, axq, axr, axs, ayp, ayq, ayr, ays, azp, azq, azr, azs, bwp, bwq, bwr, bws, bxp, bxq, bxr, bxs, byp, byq, byr, bys, bzp, bzq, bzr, bzs, cwp, cwq, cwr, cws, cxp, cxq, cxr, cxs, cyp, cyq, cyr, cys, czp, czq, czr, czs]
+
+case =7
+input =7693
+output =[pmwd, pmwe, pmwf, pmxd, pmxe, pmxf, pmyd, pmye, pmyf, pmzd, pmze, pmzf, pnwd, pnwe, pnwf, pnxd, pnxe, pnxf, pnyd, pnye, pnyf, pnzd, pnze, pnzf, powd, powe, powf, poxd, poxe, poxf, poyd, poye, poyf, pozd, poze, pozf, qmwd, qmwe, qmwf, qmxd, qmxe, qmxf, qmyd, qmye, qmyf, qmzd, qmze, qmzf, qnwd, qnwe, qnwf, qnxd, qnxe, qnxf, qnyd, qnye, qnyf, qnzd, qnze, qnzf, qowd, qowe, qowf, qoxd, qoxe, qoxf, qoyd, qoye, qoyf, qozd, qoze, qozf, rmwd, rmwe, rmwf, rmxd, rmxe, rmxf, rmyd, rmye, rmyf, rmzd, rmze, rmzf, rnwd, rnwe, rnwf, rnxd, rnxe, rnxf, rnyd, rnye, rnyf, rnzd, rnze, rnzf, rowd, rowe, rowf, roxd, roxe, roxf, royd, roye, royf, rozd, roze, rozf, smwd, smwe, smwf, smxd, smxe, smxf, smyd, smye, smyf, smzd, smze, smzf, snwd, snwe, snwf, snxd, snxe, snxf, snyd, snye, snyf, snzd, snze, snzf, sowd, sowe, sowf, soxd, soxe, soxf, soyd, soye, soyf, sozd, soze, sozf]
+
+case =8
+input =6354
+output =[mdjg, mdjh, mdji, mdkg, mdkh, mdki, mdlg, mdlh, mdli, mejg, mejh, meji, mekg, mekh, meki, melg, melh, meli, mfjg, mfjh, mfji, mfkg, mfkh, mfki, mflg, mflh, mfli, ndjg, ndjh, ndji, ndkg, ndkh, ndki, ndlg, ndlh, ndli, nejg, nejh, neji, nekg, nekh, neki, nelg, nelh, neli, nfjg, nfjh, nfji, nfkg, nfkh, nfki, nflg, nflh, nfli, odjg, odjh, odji, odkg, odkh, odki, odlg, odlh, odli, oejg, oejh, oeji, oekg, oekh, oeki, oelg, oelh, oeli, ofjg, ofjh, ofji, ofkg, ofkh, ofki, oflg, oflh, ofli]

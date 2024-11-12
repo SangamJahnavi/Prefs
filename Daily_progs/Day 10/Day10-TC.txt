@@ -1,0 +1,102 @@
+=== P1-TC ===
+case =1
+input =ecDBEAeCccEEeEBaCaDdBaDcCBaBCeaD
+output ="eCccEEeE"
+
+case =2
+input =ecDBEAeCccEdaEedddAADEBaCaDdBaDcCBaBCeaD
+output ="EAeCccEdaEedddAADE"
+
+case =3
+input =DCeEbABbdDaEAEcedEaADdACCeCADBDb
+output ="DCeEbABbdDaEAEcedEaADdACCeCADBDb"
+
+case =4
+input =WZVeVLKbePKlUnkblAaixHJHCpNpzybDSplMuoJMgONCGfdHylKoBOzkvNPtaWAemymeKZXvaExbYQZiMHVFsvJhXEDuGlwmCheP
+output ="Aa"
+
+
+case =5
+input =JxlBcVoyhakATkcWLYvWdYOFBmIYwqsPhfBjRezNiUwnXixYmFSPsXOJRLBoTbAjXZFZFkxtSvDTrNxPMcxFFAHloMGjyTBajzfw
+output =""
+
+case =6
+input =AAFaDaDEFbebDkGgEhbHIhCDbBEGgCfAibEfaChGekCakbADKDefHBcfbdHhiABHFfDiFFdajDkjiIaGaiHciKkAgdIKdbJgeIAE
+output ="AAFaDaDEFbebDkGgEhbHIhCDbBEGgCfAibEfaChGekCakbADKDefHBcfbdHhiABHFfDiFFdajDkjiIaGaiHciKkAgdIKdbJgeIAE"
+
+case =7
+input =CgaBFgahDbdGIfHEckIcjFgDeaGFhhCgdiHBDGkhCGjbkeICiIFDaeAEGbEAagaIhibCeGFBfCiHajjcFEfeIhiCkdDBcaaCeiDA
+output =aeAE
+
+case =8
+input =CHIkiCHCCgakFmaBEklikkiffFaiddkgGFGAcdEhifIgkcDAkjikmbfaaCkkGmeFchdAfkfdIlDGjjgkGAAFaDaDEFbebDkGgEhbHIhCDbBEGgCfAibEfaChGekCakbADKDefHBcfbdHhiABHFfDiFFdajDkjiIaGaiHciKkAgdIKdbJgeIAEAkdkfHcBHikdfkilIlB
+output ="DGjjgkGAAFaDaDEFbebDkGgEhbHIhCDbBEGgCfAibEfaChGekCakbADKDefHBcfbdHhiABHFfDiFFdajDkjiIaGaiHciKkAgdIKdbJgeIAEAkdkfHcBHikdfki"
+
+
+=== P2-TC ===
+case =1
+input =00000011101100101000101111010011
+output =15
+
+case =2
+input =11111001110100011001011110101011
+output =20
+
+case =3
+input =0011000001001001101010000001001111111001110100011001011110101011
+output =31
+
+case =4
+input =0000100010100101110111011011001011111001110100011001011110101011
+output =35
+
+case =5
+input =10011011011111110101100011110000
+output =19
+
+case =6
+input =1100000000100110001100011001110010011011011111110101100011110000
+output =31
+
+case =7
+input =111000001011001111101000100101001100000000100110001100011001110010011011011111110101100011110000
+output =46
+
+case =8
+input =11001010001101010101011001101100000010001010010111011101101100101111100111010001100101111010101110011011011111110101100011110000
+output =70
+
+
+=== P3-TC ===
+case =1
+input =0
+output =0
+
+case =2
+input =5
+output =1
+
+case =3
+input =20
+output =4
+
+case =4
+input =125
+output =31
+
+case =5
+input =254
+output =62
+
+case =6
+input =512
+output =126
+
+case =7
+input =3478
+output =867
+
+case =8
+input =9899
+output =2471
+

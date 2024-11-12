@@ -1,0 +1,58 @@
+=== P1 TC ===
+case =1
+input =100 8
+output =97
+
+case =2
+input =100 15
+output =42
+
+case =3
+input =250 12
+output =76
+
+case =4
+input =750 213
+output =329
+
+case =5
+input =500 499
+output =121
+
+case =6
+input =750 231
+output =141
+
+
+=== P2 TC ===
+case =1
+input =abcdba
+output =true
+
+case =2
+input =xzsdfha
+output =false
+
+case =3
+input =qwetyytewq
+output =true
+
+case =4
+input =abbbbaaaaba
+output =false
+
+case =5
+input =aghhga
+output =true
+
+case =6
+input =lirill
+output =true
+
+case =7
+input =asddsabb
+output =false
+
+case =8
+input =abcdefghhgfdcba
+output =true

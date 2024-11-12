@@ -1,0 +1,324 @@
+Skip to main content
+tessellator
+Dashboard
+Completed Tasks
+Reports
+API Reference
+Study Material
+Feedback
+Log out (JAHNAVI SANGAM KMIT)
+Quiz-3
+Started on	Thursday, 4 April 2024, 4:39 PM
+State	Finished
+Completed on	Thursday, 4 April 2024, 4:52 PM
+Time taken	12 mins 54 secs
+Marks	5.00/10.00
+Grade	50.00 out of 100.00
+Question 1
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following is not a valid order for elements in a class?
+
+Question 1Answer
+
+a.
+Method names, instance variables, constructor
+
+b.
+Instance variables, constructor, method names
+
+c.
+Constructor, instance variables, method names
+
+
+d.
+None of these options: all orders are valid.
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the output of the following code snippet?
+
+int hops = 0;
+
+int jumps = 0;
+
+jumps = hops++;
+
+if(jumps)
+
+System.out.print("Jump!");
+
+else
+
+System.out.print("Hop!");
+
+Question 2Answer
+
+a.
+The code compiles but throws an exception at runtime.
+
+b.
+The code does not compile.
+
+c.
+Hop!
+
+d.
+Jump!
+Question 3
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+What is the first line in the following code to not compile?
+public static void main(String[] args) {
+int Integer = 0; // k1
+Integer int = 0; // k2
+Integer++; // k3
+int++; // k4
+Question 3Answer
+
+a.
+k1
+
+b.
+k2
+
+c.
+k3
+
+d.
+k4
+Question 4
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+How many instance initializers are in this code?
+
+1: public class Bowling {
+
+2: { System.out.println(); }
+
+3: public Bowling () {
+
+4: System.out.println();
+
+5: }
+
+6: static { System.out.println(); }
+
+7: { System.out.println(); }
+
+8: }
+
+Question 4Answer
+
+a.
+1
+
+
+b.
+3
+
+c.
+2
+
+d.
+None
+
+Question 5
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+What is the output of the following application?
+
+package recreation;
+
+public class Dancing {
+
+public static void main(String[] vars) {
+
+int leaders = 10 * (2 + (1 + 2 / 5);
+
+int followers = leaders * 2;
+
+System.out.print(leaders + followers < 10 ? "Too few" : "Too many");
+
+}
+
+}
+
+Question 5Answer
+
+a.
+Too few
+
+
+b.
+Too many
+
+c.
+The code compiles but throws a division by zero error at runtime.
+
+d.
+The code does not compile
+Question 6
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is true of the finalize() method?
+
+Question 6Answer
+
+a.
+It may be called one or more times.
+
+b.
+It may be called zero or more times.
+
+c.
+It will be called exactly once.
+
+d.
+It may be called zero or one times.
+
+Question 7
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+What is the output of the following application?
+
+package restaurant;
+
+public class Pieces {
+
+public static void main(String[] info) {
+
+int flair = 15;
+
+if(flair >= 15 && flair < 37) {
+
+System.out.print("Not enough");
+
+} if(flair==37) {
+
+System.out.print("Just right");
+
+} else {
+
+System.out.print("Too many");
+
+}
+
+}
+
+}
+
+Question 7Answer
+
+a.
+Does not Compile
+
+b.
+Not enough
+
+
+c.
+Too many
+
+d.
+Just right
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which statement(s) about case statements of a switch statement is not true?
+
+Question 8Answer
+
+a.
+A case value can be final.
+
+b.
+A case value must match the data type of the switch variable, or be able to be promoted to that type.
+
+c.
+A case statement must be terminated with a break statement.
+
+d.
+A case value can be a literal expression.
+Question 9
+Complete
+Mark 0.00 out of 1.00
+Flag question
+Question text
+Which of the following can fill in the blanks to make this code compile?
+ _______d = new_______ (1_000_000_.00);
+Question 9Answer
+
+a.
+double, double
+
+
+b.
+Double, double
+
+c.
+double, Double
+
+d.
+None of these options
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the output of the following application?
+
+package dinosaur;
+
+public class Park {
+
+public final static void main(String... arguments) {
+
+int pterodactyl = 6;
+
+long triceratops = 3;
+
+if(pterodactyl % 3 >= 1)
+
+triceratops++;
+
+triceratops--;
+
+System.out.print(triceratops);
+
+}
+
+}
+
+
+
+Question 10Answer
+
+a.
+2
+
+b.
+3
+
+c.
+The code does not compile.
+
+d.
+4
+Finish review

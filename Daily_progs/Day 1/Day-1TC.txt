@@ -1,0 +1,75 @@
+==== Program-1 ====
+case =1
+input =money monkey monday
+output ='mon'
+
+case =2
+input =corn cook book clock
+output =''
+
+case =3
+input =flower flow flown flew fly flight
+output ='fl'
+
+case =4
+input =corn cook clock
+output ='c'
+
+case =5
+input =coding codezen codingninja coders
+output ='cod'
+
+case =6
+input =abcdefghijk abcdefghij abcdefgh abcdefghrewq abcdefghjklmno
+output =abcdefgh
+
+case =7
+input =interactive international intermediate internet interfere interlude interim intervene
+output ='inter'
+
+case =8
+input =commonsensible commonsensical commonplaceness commonwealth commonsense commonweal commonage
+output ='common'
+
+
+
+==== Program-2 ====
+case =1
+input =paper 
+title
+output =true
+
+case =2
+input =memo
+demo
+output =false
+
+case =3
+input =abcdefghijklmnopqrstuvwxyz
+qwertyuiopasdfghjklzxcvbnm
+output =true
+
+case =4
+input =abbcccddddeeeee
+ghhgggiiiikkkkk
+output =false
+
+case =5
+input =memorialcollege
+tutorialcollugu
+output =true
+
+case =6
+input =memorialcollege
+tutorialcollege
+output =false
+
+case =7
+input =popularprogramminglanguage
+papulamprajmamminjlanjuaje
+output =false
+
+case =8
+input =thinkeboutit
+shinkebousis
+output =true
